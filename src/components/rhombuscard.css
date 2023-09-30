@@ -1,0 +1,34 @@
+.rhombus-card {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    position: relative;
+    transform: rotate(45deg);
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background-color: #936F01;
+    color: white;
+  }
+  
+  .rhombus-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .rhombus-logo {
+    width: 42px; /* Adjust the size as needed */
+    height: 42px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .rhombus-title {
+    font-size: 16px;
+    margin: 0;
+  }
+  

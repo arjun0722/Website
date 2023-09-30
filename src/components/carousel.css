@@ -1,0 +1,31 @@
+.cardcarousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0px ;
+}
+
+.card-bodycarousel{
+    width: 60%;
+}
+.containercarousel{
+    margin: 32px 0px ;
+    background-color: #F2EEE1;
+}
+.textcarousel{
+    padding: 15px 0px;
+}
+/* Override Bootstrap carousel control styles */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; /* Remove the white background */
+  color: #936f01; /* Set arrow color to #936F01 */
+  font-size: 2rem; /* Optional: Increase font size if needed */
+  border: none;
+}
+
+/* Override Bootstrap carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* Remove the default icon */
+}
